@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+        Thank you for taking the time to help us improve the platform</p>
+
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email<input type="email" id="email" placeholder="Enter your Email" required></label>
+        <label for="number" id="number-label">Age (optional)<input type="number" max="90" min="18" id="number" placeholder="Age"></label>
+        
+        Which option best describes your current role?
+            <select name="" id="dropdown">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full time job</option>
+                <option value="3">Full time learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        
+        Would you recommend freeCodeCamp to a friend?
+        <label for="definitely"><input name="recommend" type="radio" id="definitely">Definitely</label> 
+        <label for="maybe"><input name="recommend" type="radio" id="maybe">Maybe</label> 
+        <label for="not-sure"><input name="recommend" type="radio" id="not-sure">Not sure</label> 
+        
+      What is your favorite feature of freeCodeCamp?
+            <select name="" id="favorite">
+                <option value="">Select an option</option>
+                <option value="1">Challenges</option>
+                <option value="2">Projects</option>
+                <option value="3">Community</option>
+                <option value="4">Open source</option>
+            </select>
+        
+        
+        
+        
+    </form>
+</html>
